@@ -14,7 +14,6 @@ def summer (array)
 	isor=nil
 	array.each{|dividend|
 		array.each{|divisor|
-		puts dividend%divisor
 		if(dividend==divisor)
 			next
 		elsif(dividend%divisor==0)
